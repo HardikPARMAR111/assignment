@@ -237,7 +237,7 @@ export const PollDetailPage = () => {
                   Status
                 </Typography>
                 <Typography variant="h6" fontWeight="bold">
-                  {poll.isActive ? '🟢 Active' : '🔴 Closed'}
+                  {poll.isActive ? ' Active' : ' Closed'}
                 </Typography>
               </Box>
             </Stack>
